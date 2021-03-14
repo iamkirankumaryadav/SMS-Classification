@@ -13,6 +13,15 @@
 1. SMS ( Messages Extracted in form of `TSV` )
 2. Labels ( **Spam** or **Ham** )
 
+### Machine Learning Pipeline
+1. **Import** Data ( SMS )
+2. **Exploratory Data Analysis**
+3. **Clean** Text ( Tokenize, Remove Punctuation, Remove Stopwords, Stemming, Lemmatization )
+4. **Feature Engineering**
+5. **Fit** | **Train** Simple Model
+6. **Tune Hyperparameters** and **Evaluate** with **Grid Search Cross Validation**
+7. Final **Model Selection** ( Comparing Models and Selecting Best One )
+
 ### Natural Language Processing | NLP
 
 - Ability of a Computer to `Understand`, `Analyze`, `Manipulate` and `Generate` **Human Language**.
