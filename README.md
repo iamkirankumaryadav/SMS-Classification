@@ -22,6 +22,12 @@
 6. **Tune Hyperparameters** and **Evaluate** with **Grid Search Cross Validation**
 7. Final **Model Selection** ( Comparing Models and Selecting Best One )
 
+### Process
+1. **Split** the Data into **Training** Set and **Test** Set.
+2. Train **Vectorizers** on Training Set and Use that to Transform **Test** Set.
+3. Fit Best **Random Forest Model** and Best **Gradient Boosting Model** on **Training Set** and **Predict** on **Test Set**.
+4. **Evaluate** Results of these Two Models to Select **Best Model**.
+
 ### Natural Language Processing | NLP
 
 - Ability of a Computer to `Understand`, `Analyze`, `Manipulate` and `Generate` **Human Language**.
