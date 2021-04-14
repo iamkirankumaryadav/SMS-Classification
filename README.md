@@ -25,9 +25,9 @@
 4. **Feature Engineering**
 - Vectorization : Allocate Text to Numbers or Vectors that an Algorithm and a Machine Learning Model can Understand and Learn.
 - CountVectorizer : Extract Features from Text ( Count Occurence of Text in Corpus and Consider each as Feature | Column )
-- TF-IDF : Find the Importance of Word in the Document. 
-- Term Frequency : How often the Word Appears in the Document. 
-- Inverse Document Frequency : How often the Term Appears across all Documents in the Data Set.
+- TF-IDF : Represents **Importance** of the Word in the Document. 
+- Term Frequency : Number of Time the Term Appears in the Document. 
+- Inverse Document Frequency : Number of Documents containing the Word.
 
 5. **Fit** | **Train** Simple Model
 6. **Tune Hyperparameters** and **Evaluate** with **Grid Search Cross Validation**
