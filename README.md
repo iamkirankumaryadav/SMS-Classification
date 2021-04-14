@@ -14,16 +14,21 @@
 2. Labels ( **Spam** or **Ham** )
 
 ### Machine Learning Pipeline
-1. **Import** Data ( SMS )
-2. **Exploratory Data Analysis**
-3. **Clean** Text 
+
+### 1. **Import** Data ( SMS )
+
+### 2. **Exploratory Data Analysis**
+
+### 3. **Clean** Text 
+
 - Remove Punctuation.
 - Change to Lowercase.
 - Tokenization : **Splitting** a Phrase | Sentence into List of **Individual Words** called **Tokens**.
 - Remove Stopwords : Most Common Words ( Filtered out before processing Natural Language Data )
 - Stemming ( Speed ) | Lemmatization ( Accuracy ) : Reduce the Word to its Base | Stem Form.
 
-4. **Feature Engineering**
+### 4. **Feature Engineering**
+
 - Vectorization : Allocate Text to Numbers or Vectors that an Algorithm and a Machine Learning Model can Understand and Learn.
 - CountVectorizer : Extract Features from Text ( Count Occurence of Text in Corpus and Consider each as Feature | Column )
 - Bag of Words : Count Occurence of the Word in each Document and each Word becomes Feature Represented by a Vector. 
@@ -43,9 +48,11 @@ Ideal for Single Word Problems | Ideal for Problems with Multiple Words or Docum
 ### BERT 
 - Google's Pre trained **Bidirectional Encoder Representation for Transformers** used for **Transfer Learning**.
 
-5. **Fit** | **Train** Simple Model
-6. **Tune Hyperparameters** and **Evaluate** with **Grid Search Cross Validation**
-7. Final **Model Selection** ( Comparing Models and Selecting Best One )
+### 5. **Fit** | **Train** Simple Model
+
+### 6. **Tune Hyperparameters** and **Evaluate** with **Grid Search Cross Validation**
+
+### 7. Final **Model Selection** ( Comparing Models and Selecting Best One )
 
 ### Process
 1. **Split** the Data into **Training** Set and **Test** Set.
