@@ -16,8 +16,16 @@
 ### Machine Learning Pipeline
 1. **Import** Data ( SMS )
 2. **Exploratory Data Analysis**
-3. **Clean** Text ( Tokenize, Remove Punctuation, Remove Stopwords, Stemming, Lemmatization )
+3. **Clean** Text 
+- Remove Punctuation
+- Tokenization : **Splitting** a Phrase | Sentence into List of **Individual Words** called **Tokens**.
+- Remove Stopwords : Most Common Words ( Filtered out before processing Natural Language Data )
+- Stemming ( Speed ) | Lemmatization ( Accuracy ) : Reduce the Word to its Base | Stem Form.
+
 4. **Feature Engineering**
+- Vectorization : Converting Text to Numbers that an Algorithm and a Machine Learning Model can Understand and Learn.
+- CountVectorizer : Extract Features from Text ( Count Occurence of Text in Corpus and Consider each as Feature | Column )
+
 5. **Fit** | **Train** Simple Model
 6. **Tune Hyperparameters** and **Evaluate** with **Grid Search Cross Validation**
 7. Final **Model Selection** ( Comparing Models and Selecting Best One )
