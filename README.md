@@ -25,9 +25,19 @@
 4. **Feature Engineering**
 - Vectorization : Allocate Text to Numbers or Vectors that an Algorithm and a Machine Learning Model can Understand and Learn.
 - CountVectorizer : Extract Features from Text ( Count Occurence of Text in Corpus and Consider each as Feature | Column )
+- Bag of Words : Count Occurence of the Word in each Document and each Word becomes Feature Represented by a Vector. 
 - TF-IDF : Represents **Importance** of the Word in the Document. 
 - Term Frequency : Number of Time the Term Appears in the Document. 
 - Inverse Document Frequency : Number of Documents containing the Word.
+- Word2Vec : Learn Word Association from a Large Corpus of Text, Once Trained can Detect Synonyms and can Suggest Words for Partial Sentence.
+
+Word2Vec Matrix | TF-IDF Matrix
+:--- | :--- 
+Multi Dimensional Vector | Sparse Matrix
+Capture Words Relationship with other Words | Captures the Importance of Word in a given Documment
+Applied on each Word Individully | Applied to each Training Document
+More Memory Intensive | Less Memory Intensive
+Ideal for Single Word Problems | Ideal for Problems with Multiple Words or Document Files.
 
 5. **Fit** | **Train** Simple Model
 6. **Tune Hyperparameters** and **Evaluate** with **Grid Search Cross Validation**
