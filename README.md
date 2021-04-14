@@ -17,7 +17,8 @@
 1. **Import** Data ( SMS )
 2. **Exploratory Data Analysis**
 3. **Clean** Text 
-- Remove Punctuation
+- Remove Punctuation.
+- Change to Lowercase.
 - Tokenization : **Splitting** a Phrase | Sentence into List of **Individual Words** called **Tokens**.
 - Remove Stopwords : Most Common Words ( Filtered out before processing Natural Language Data )
 - Stemming ( Speed ) | Lemmatization ( Accuracy ) : Reduce the Word to its Base | Stem Form.
@@ -38,6 +39,9 @@ Capture Words Relationship with other Words | Captures the Importance of Word in
 Applied on each Word Individully | Applied to each Training Document
 More Memory Intensive | Less Memory Intensive
 Ideal for Single Word Problems | Ideal for Problems with Multiple Words or Document Files.
+
+### BERT 
+- Google's Pre trained **Bidirectional Encoder Representation for Transformers** used for **Transfer Learning**.
 
 5. **Fit** | **Train** Simple Model
 6. **Tune Hyperparameters** and **Evaluate** with **Grid Search Cross Validation**
