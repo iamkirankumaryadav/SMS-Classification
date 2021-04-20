@@ -55,7 +55,7 @@ Ideal for Single Word Problems | Ideal for Problems with Multiple Words or Docum
 
 ### 6. **Tune Hyperparameters** and **Evaluate** with **Grid Search Cross Validation**
 
-### 7. Final **Model Selection** ( Comparing Models and Selecting Best One )
+### 7. Final **Model Selection** ( Comparing Models and Selecting Best One ) Accuracy : 97%
 
 ### Process
 1. **Split** the Data into **Training** Set and **Test** Set.
