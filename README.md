@@ -3,8 +3,11 @@
 ### Libraries
 1. NumPy
 2. Pandas
-3. Matplotlib ( Pyplot )
-4. Scikit Learn ( Count Vectorizer, TF IDF Vectorizer, Random Forest Classifier, Gradient Boosting Classifier, K Fold Cross Validation, Grid Search Cross Validation, Train Test Split )
+3. Matplotlib
+4. Scikit Learn 
+- Feature Extraction : Count Vectorizer and TF IDF Vectorizer
+- Model Selection : Train Test Split, Grid Search Cross Validation and K Fold Cross Validation
+- Ensembles : Random Forest Classifier and Gradient Boosting Classifier
 5. NLTK ( Corpus, Stopwords, Porter Stemmer, Word Net Lemmatizer )
 6. String ( Punctuation )
 7. RE : Regular Expression
