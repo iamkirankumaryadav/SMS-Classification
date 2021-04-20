@@ -22,7 +22,7 @@
 
 ### 2. **Exploratory Data Analysis**
 
-### 3. **Data Cleaning** | **Clean** Text 
+### 3. **Data Cleaning**
 
 - Remove Punctuation.
 - Change to Lowercase.
