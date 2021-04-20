@@ -38,18 +38,6 @@
 - TF-IDF : Represents **Importance** of the Word in the Document. 
 - Term Frequency : Number of Time the Term Appears in the Document. 
 - Inverse Document Frequency : Number of Documents containing the Word.
-- Word2Vec : Learn Word Association from a Large Corpus of Text, Once Trained can Detect Synonyms and can Suggest Words.
-
-Word2Vec Matrix | TF-IDF Matrix
-:--- | :--- 
-Multi Dimensional Vector | Sparse Matrix
-Capture Words Relationship with other Words | Captures the Importance of Word in a given Documment
-Applied on each Word Individully | Applied to each Training Document
-More Memory Intensive | Less Memory Intensive
-Ideal for Single Word Problems | Ideal for Problems with Multiple Words or Document Files.
-
-### BERT 
-- Google's Pre trained **Bidirectional Encoder Representation for Transformers** used for **Transfer Learning**.
 
 ### 5. **Fit** | **Train** Simple Model
 
