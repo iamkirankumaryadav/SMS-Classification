@@ -32,7 +32,7 @@
 
 ### 4. **Feature Engineering**
 
-- Vectorization : Allocate Text to Numbers or Vectors that an Algorithm and a Machine Learning Model can Understand and Learn.
+- Vectorization : Convert Text to Numbers ( Feature Vectors )  that an Algorithm and a Machine Learning Model can Understand and Learn.
 - CountVectorizer : Extract Features from Text ( Count Occurence of Text in Corpus and Consider each as Feature | Column )
 - Bag of Words : Count Occurence of the Word in each Document and each Word becomes Feature Represented by a Vector. 
 - TF-IDF : Represents **Importance** of the Word in the Document. 
