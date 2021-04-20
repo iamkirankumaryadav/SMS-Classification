@@ -39,7 +39,7 @@
 - Term Frequency : Number of Time the Term Appears in the Document. 
 - Inverse Document Frequency : Number of Documents containing the Word.
 
-### 5. **Fit** | **Train** Simple Model
+### 5. **Fit** | **Train** Base Model
 
 ### 6. **Tune Hyperparameters** and **Evaluate** with **Grid Search Cross Validation**
 
